@@ -1,0 +1,426 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    width: 100%;
+    /* height: 500px;
+    background-color: aqua; */
+    background-color: #ebf8fd; 
+}
+.main-head{
+    
+    width: 100%;
+    height: 72px;
+    display: flex;
+     background-color: #9adbf5; 
+     position: sticky;
+     top: 0;
+     /* color: #1d2d5a;  */
+}
+.bg-top{
+    /* width: 100%;
+    display: flex; */
+
+}
+.logo{
+    
+    height: 72px;
+     width: 15%;
+    /* background-color: brown; */
+    display: flex;
+   text-align: center;
+}
+ .sear{
+    
+    height: 72px;
+     width: 35%; 
+    /* background-color: olive; */
+    display: flex;
+    align-items: center;
+    
+} 
+.searmain{
+    flex:2;
+    background-color: white;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    width: 100%;
+    height: 29px;
+}
+.searmain input{
+    border: none;
+}
+.searsub{
+    flex:1;
+    /* background-color: yellowgreen; */
+    width: 100%;
+    height: 30px;
+}
+
+.inp{
+    /* margin-top: 8px;
+    margin-left: 5px; */
+    width: 330px;
+    height: 30px;
+    background-color: white;
+    /* background-color: violet; */
+    border-radius:  8px;
+    /* display: flex;
+    justify-content: space-around;  */
+}
+
+input{
+    border: none;
+}
+
+.hide{
+    width: 100%;
+    height: 50px;
+     /* background-color: orangered;  */
+}
+
+#btnn{
+    
+    height: 72px;
+     width: 50%; 
+    /* background-color: orangered; */
+    /* display: flex;
+    justify-content: space-around; */
+     display: flex;
+     justify-content: space-between; 
+}
+/* #btn{
+    display: flex;
+    justify-content: space-between;
+} */
+
+
+ #btn a{
+    text-decoration: none;
+    
+   }
+/*
+   .bag:hover{
+    background-color: blue;
+    color: white;
+    
+  } */
+
+/* .second{
+    width: 100%;
+    height: 72px;
+    background-color: green;
+} */
+
+.center{
+    /* background-color: olive; */
+}
+
+.center-in{
+     /* background-color: #1d2d5a;  */
+}
+
+.foot{
+    width: 100%;
+   /* min-height: 300px; */
+   overflow: auto;
+     background-color: #1d2d5a;
+}
+
+.hi{
+    /* background-color: orangered; */
+    height: 300px;
+}
+
+.hi a{
+    margin-top: 20px;
+    text-decoration: none;
+    color: #aee2f7;
+   }
+
+   .same{
+    flex: 1;
+    text-align: center;
+    /* color: white; */
+    margin-top: 20px;
+    color: #aee2f7;
+   }
+
+.last{
+    display: flex;
+   }
+
+   .end{
+        height: 114px;
+        border: 1px solid black;
+        display: flex;
+        margin: 0;
+        
+        
+        /* background-color: #1d2d5a; */
+   }
+
+   .pht{
+    /* background-color: orange; */
+    flex: 1;
+    margin: 0;
+    padding: 0;
+   }
+   .para{
+    
+    flex: 2;
+    margin: 0;
+    padding: 0;
+   }
+
+ 
+
+   .article{
+    /* background-color: red; */
+       display: flex;   
+   }
+
+   .article-containerin{
+    /* background-color: yellow; */
+   }
+
+   .right-side{
+    /* background-color: palevioletred; */
+   }
+
+   .move{
+    height: 290px;
+    width: 300px;
+    margin-left: 30px;
+    /* background-color: olivedrab; */
+    background-color: white;
+    border: 1px solid whitesmoke;
+    position: static;
+    top: 100px;
+    display: flex;
+    flex-direction: column;
+     text-align: center; 
+    /* align-items: center; */
+   }
+
+   .move-in{
+    height: 30px;
+    margin-top: 5p;
+    margin-bottom: 5px;
+    margin-left: 8px;
+    margin-right: 8px;
+     background-color: antiquewhite; 
+    border-radius: 10px;
+   }
+
+   .bag{
+    color: black;
+   }
+
+
+   .bag:hover{
+    background-color: #1d2d5a;
+    color: white;
+    /* transition: background .2s ease-out,color .1s ease-out; */
+  }
+  .job:hover{
+    background-color: #9adbf5; 
+  }
+
+  .uul li a{
+    font-size: small;
+    font-weight: 500;
+  }
+
+  .center-head{
+    font-size: small;
+    font-weight: 500;
+
+  }
+
+#bagb{
+    border-bottom-color: #1d2d5a;
+    border-color: #1d2d5a;
+}
+
+   @media screen and (max-width:1009px) {
+
+     .bag{
+       font-size: smaller;
+   } 
+
+   .same h6{
+    font-size: small;
+} 
+.same a{
+    font-size: smaller;
+} 
+
+.job{
+    font-size: smaller;
+}
+        
+  }
+
+
+
+
+  .cc{
+    display: flex;
+}
+
+@media screen and (max-width:767px){
+    .main-head{
+         display: flex;
+        /* justify-content: flex-end;  */
+        justify-content: space-between;
+
+    }
+    #btn ul{
+        background-color: #1d2d5a;
+        width: 200px;
+    }
+    #btn ul li{
+        padding-bottom: 50px;
+        text-align: center;
+        color: white;
+    }
+
+    #btn ul li a{
+        color: white;
+    }
+    /* .btn1{
+        display: flex;
+        position: absolute;
+    }
+    .ee{
+        position: relative;
+    } */
+}
+
+
+
+
+
+
+   @media screen and (max-width:956px) {
+
+    .sear{
+       display: none; 
+   }
+   #btnn{
+        flex:1;
+   }
+   .second{
+
+   }
+   
+        
+   }
+   
+   @media screen and (max-width:991px) {
+
+    .move{
+       display: none;
+   } 
+  
+       
+  } 
+
+   @media screen and (min-width:956px) {
+
+     .second{
+        display: none;
+    } 
+   
+        
+   }  
+
+    @media screen and (max-width:991px) {
+
+    .hide{
+       display: none;
+   }
+        
+   } 
+
+
+    @media screen and (max-width:1199px) {
+
+        .two-side{
+            display: none;
+        }
+        
+   }
+
+
+
+
+/* .main{
+    width: 100%;
+    height: 500px;
+    background-color: aqua;
+}
+.main-head{
+    width: 100%;
+    height: 72px;
+    background-color: blueviolet;
+    display: flex;
+    
+
+}
+.bg-top{
+
+}
+.logo{
+    
+    height: 72px;
+    width: 20%;
+    background-color: brown;
+}
+.sear{
+    
+    height: 72px;
+    width: 30%;
+    background-color: olive;
+    
+}
+#btn{
+    
+    height: 72px;
+    width: 50%;
+   
+    background-color: orangered;
+}
+.second{
+    width: 100%;
+    height: 72px;
+    background-color: green;
+}
+
+@media screen and (max-width:991px) {
+
+    .sear{
+       display: none; 
+   }
+   #btn{
+        flex:1;
+   }
+   
+        
+   }
+   @media screen and (min-width:991px) {
+
+    .second{
+        display: none;
+    }
+   
+        
+   } */
+
+
+
+   
+
+
